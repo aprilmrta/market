@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      header {
+        background-color: #518fb3;
+        padding: 20px;
+        color: #e0dd4a;
+        text-align: center;
+      }
+
+      nav {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        line-height: 50px;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        background: bisque;
+        z-index: 1;
+        border-bottom: 1px solid pink;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      nav ul li {
+        float: left;
+      }
+
+      nav ul li a {
+        color: (204, 66, 47);
+        font-weight: bold;
+        text-align: center;
+        padding: 0 16px;
+        text-decoration: none;
+        margin-right: 50px;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      .list-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .menu {
+        margin: 10px;
+        max-width: 300px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .menu:hover {
+        transform: scale(1.05);
+      }
+
+      .menu img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .menu h2,
+      .menu p {
+        margin: 10px;
+      }
+
+      h4 {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+        margin: 0;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Menu</h1>
+    </header>
+
+    <nav class="navigasi">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#kontak">About</a></li>
+        <li><a href="#tentang">Store</a></li>
+      </ul>
+    </nav>
+
+    <div class="list-menu">
+      <div class="menu">
+        <a href="kaos1.html"><img src="paping.png" alt="" /></a>
+        <h2>Baju Epep</h2>
+        <p> Rp 85.000</p>
+      </div>
+      <div class="menu">
+        <a href="kaos2.html"><img src="kaos.png" alt="" /></a>
+        <h2>Baju Jaehyun</h2>
+        <p> Rp 100.000</p>
+      </div>
+      <div class="menu">
+        <a href="kaos3.html"><img src="KAOS (2).png" alt="" /></a>
+        <h2>Baju Katul</h2>
+        <p> Rp 150.000</p>
+      </div>
+      <div class="menu">
+        <a href="kaos4.html"><img src="kaos 2.png" alt="" /></a>
+        <h2>Baju Lucu</h2>
+        <p> Rp 90.000</p>
+      </div>
+    </div>
+    <h4>Copyright 2024 web aping</h4>
+  </body>
+</html>
